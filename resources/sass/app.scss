@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback');
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "../css/flag-icon-css/flag-icons.css";
+
+// Bootstrap
+@import "~bootstrap/scss/functions";
+@import "bootstrap-variables";
+@import "~bootstrap/scss/bootstrap";
+
+// Variables and Mixins
+@import "variables";
+@import "variables-alt";
+@import "mixins";
+
+@import "parts/core";
+@import "parts/components";
+@import "parts/extra-components";
+@import "parts/pages";
+@import "parts/plugins";
+@import "parts/miscellaneous";
+
+
+// trap =(
+
+.modal-backdrop {
+    opacity: .9;
+}

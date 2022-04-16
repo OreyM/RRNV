@@ -1,0 +1,49 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.10.2",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "laravel-mix-svg-sprite": "^2.0.0",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "vue-loader": "^15.9.8",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.0.0",
+        "bootstrap": "^4.6.1",
+        "bootstrap-vue": "^2.21.2",
+        "camelcase": "^6.3.0",
+        "compose-function": "^3.0.3",
+        "es6-iterator": "^2.0.3",
+        "icheck-bootstrap": "^3.0.1",
+        "jquery": "^3.6.0",
+        "laravel-echo": "^1.11.3",
+        "laravel-vue-pagination": "^2.3.1",
+        "moment": "^2.29.1",
+        "popper.js": "^1.16.1",
+        "pusher-js": "^7.0.6",
+        "vue": "^2.6.14",
+        "vuex": "^3.6.2"
+    },
+    "prettier": {
+        "bracketSpacing": true,
+        "printWidth": 100,
+        "singleQuote": true,
+        "semi": false,
+        "tabWidth": 2
+    }
+}
